@@ -1,0 +1,17 @@
+/* src/Footer.css */
+.footer {
+    background-color:#2d3b51;
+    color: #000000;
+    text-align: right;
+    padding: 10px 20px;
+    height: 40px;
+    display: flex;
+    justify-content: flex-end;
+    align-items:center ;
+  }
+  .git-hub-img{
+    width: 30px;
+    /* border: 1px solid #fff; */
+    margin-top: 2px;
+  
+  }

@@ -1,0 +1,38 @@
+/* src/Navbar.css */
+.navbar {
+    display: flex;
+    /* justify-content: space-between;
+    align-items: center; */
+    background-color: #6789BB;
+    color: white;
+    padding: 0 ;
+    box-sizing: border-box;
+  }
+  .navbar div{
+    height: 60px;
+  }
+  .navbar-brand {
+    font-size: 1.5rem;
+    width: 60vw;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  .navbar-list {
+    list-style: none;
+    display: flex;
+  }
+  
+  .navbar-item {
+    margin-right: 20px;
+    cursor: pointer;
+  }
+  .first-half{
+    width:20vw ;
+    background-color: #4B6488;
+    height: 100%;
+  }
+  .second-half{
+    width:20vw ;
+    background-color: #2D3B51;
+  }

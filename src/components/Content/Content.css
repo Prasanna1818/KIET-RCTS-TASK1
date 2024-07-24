@@ -1,0 +1,112 @@
+.layout-container {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center; /* Center the content horizontally */
+}
+
+.left-half {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 10px; /* Add some padding */
+  width: 60vw;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+
+.small-boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Space evenly between the boxes */
+  max-width: 100%; /* Full width on smaller screens */
+}
+
+.box {
+  width: 8cm;
+  height:8cm; /* Calculate the width for 3 boxes in a row with gap */
+  text-align: center;
+  padding: 10px;
+  border: 15px solid rgb(178, 177, 177);
+  border-radius: 10px;
+  background-color: rgb(175, 75, 75);
+  margin-bottom: 20px; /* Add some margin to separate rows */
+  margin-top:20px ;
+}
+.recharts-x-axis .recharts-cartesian-axis-tick-value {
+  fill:blue;
+}
+.recharts-y-axis .recharts-cartesian-axis-tick-value {
+  fill: blue;
+}
+
+
+
+.right-half {
+  /* width: 100%; */
+  flex: 1; /* Take the remaining space on the right side */
+  padding: 20px; /* Add some padding */
+  background-image: url("E:\august task1\frontend\public\logo2-removebg-preview.png");
+  background-size: 7%;
+  background-position: 2%;
+  background-repeat: no-repeat;
+  background-position-y:45px ;
+  margin: 20px 20px 20px 20px;
+  background-color: rgba(78, 78, 130, 0.908);
+}
+
+.para h1{
+  text-align: center;
+  color: white;
+}
+.textarea {
+  width: 100%;
+  height: 83vh; /* Set a percentage of the viewport height */
+  border-radius: 20px;
+  padding: 2px;
+  background-color: rgba(133, 135, 168, 0.998);
+  color: aliceblue;
+  text-align: left;
+  font-weight: 700;
+  margin: auto;
+}
+
+.header {
+  background-color: #c0a1d5;
+  padding: 10px;
+  text-align: center;
+}
+
+.chart-container {
+  margin-top: 10px;
+}
+.statistic{
+  background-color: transparent;
+  padding: 0;
+  z-index: -1;
+}
+
+/* Add a media query for screens with a maximum width of 768px */
+@media (max-width: 768px) {
+  .layout-container {
+    align-items: center;
+    flex-direction: column; /* Stack content vertically on small screens */
+  }
+
+  .left-half,
+  .right-half {
+    max-width: 100%; /* Full width on small screens */
+  }
+  .box{
+    width: 100vw;
+    text-align: center;
+  }
+  .chart{
+    /* width: 100vw; */
+    margin-left:auto ;
+    text-align: center;
+  }
+}

@@ -1,0 +1,17 @@
+/* src/SecondFooter.css */
+.second-footer {
+    background-color:#000000;
+    color: black;
+    text-align: center;
+    padding: 0;
+    height: 10px;
+    
+  }
+  .footer-content{
+    background-color: black;
+    color: #fff;
+    margin: 0;
+    padding: 5px;
+    font-size: 12px;
+  }
+  
